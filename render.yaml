@@ -1,6 +1,8 @@
 services:
   - name: client
-    buildCommand: npm run build
+    buildCommand: |
+      npm install
+      npm run build
     startCommand: npm start
     env:
       - key: NODE_ENV
