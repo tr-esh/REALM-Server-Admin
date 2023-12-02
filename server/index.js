@@ -86,8 +86,8 @@ mongoose.connection.on("open", function() {
 parametersController.scheduleDataJobs();
 nextValuesController.scheduleDataJobs();
 
-
+const PORT = process.env.PORT || 8080
 //port
-app.listen(8080, () => {
-    console.log ('Server running!')
+app.listen(PORT, () => {
+    console.log (`Server running on ${PORT}!`)
 })
