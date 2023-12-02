@@ -29,6 +29,8 @@ const nextValuesController = require('./controllers/dailyDataPreparation');
 
 //middleware
 app.use(express.json());
+
+
 app.use(cors())
 
 app.use(bodyParser.urlencoded({extended: false}))
@@ -47,14 +49,6 @@ app.use('/api/realm', parameterRoutes)
 
 const rootDirectory = path.join(__dirname);
 console.log(rootDirectory);
-
-//server client
-// app.use(express.static(path.join(__dirname, "../client/build")))
-// app.get("*", (req, res) =>
-//     res.sendFile(
-//         path.resolve(__dirname, "../", "client", "build", "index.html")
-//     )
-// );
 
 
 //server-client connection

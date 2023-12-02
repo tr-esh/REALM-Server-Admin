@@ -99,8 +99,7 @@ const getHourlyMean = async (collectionName) => {
           }
         }
     ]).exec();
-
-
+    
     try {
       return results[0]?.meanValue ?? null;
     } catch (error) {
