@@ -1,18 +1,13 @@
 services:
   - name: client
-    buildCommand: |
-      cd client
-      npm install
-      npm run build
-      cd ../server
-      npm install
+    buildCommand: echo "no build required"
     startCommand: echo "no start required"
     env:
       - key: NODE_ENV
         value: production
 
   - name: server
-    buildCommand: echo "no build required"
+    buildCommand: npm run build
     startCommand: node server/index.js
     env: 
       - key: NODE_ENV
