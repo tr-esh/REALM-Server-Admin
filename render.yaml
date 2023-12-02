@@ -4,6 +4,8 @@ services:
       cd client
       npm install
       npm run build
+      cd ../server
+      npm install
     startCommand: echo "no start required"
     env:
       - key: NODE_ENV
