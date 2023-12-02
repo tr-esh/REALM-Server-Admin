@@ -100,7 +100,14 @@ const getHourlyMean = async (collectionName) => {
         }
     ]).exec();
 
-    return results[0]?.meanValue ?? null;
+
+    try {
+      return results[0]?.meanValue ?? null;
+    } catch (error) {
+      return null
+    }
+
+    // return results[0]?.meanValue ?? null;
 };
 
     
