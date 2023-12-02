@@ -1,0 +1,7 @@
+.Record-Month-Holder {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    font-family: 'Sk-Modernist-Regular';
+    grid-template-columns: 73rem auto;
+}
