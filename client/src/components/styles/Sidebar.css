@@ -15,7 +15,7 @@
     font-weight: 700;
     font-size: 2.2rem;
     line-height: 0.8;
-    font-family: "Sk-Modernist-Regular";
+    font-family: 'Archivo', sans-serif;
     letter-spacing: 0.1rem;
 }
 
@@ -182,7 +182,7 @@ h1 {
         font-weight: 700;
         font-size: 1.5rem;
         line-height: 0.8;
-        font-family: "Sk-Modernist-Regular";
+        font-family: 'Archivo', sans-serif;
         letter-spacing: 0.1rem;        
     }
     .menu {
