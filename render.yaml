@@ -1,9 +1,10 @@
 services:
   - name: client
     buildCommand: |
+      cd client
       npm install
       npm run build
-    startCommand: npm start
+    startCommand: echo "no start required"
     env:
       - key: NODE_ENV
         value: production
