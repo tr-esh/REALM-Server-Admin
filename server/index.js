@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
-const corsOption = require('./config/cors')
+import {corsOption} from './config/cors'
 const parameterRoutes = require('./routes/parameters')
 // const os = require('os');
 const path = require('path');
