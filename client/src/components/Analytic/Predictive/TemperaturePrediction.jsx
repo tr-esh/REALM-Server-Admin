@@ -112,7 +112,7 @@ const TemperaturePrediction = () => {
                             fontSize: '0.7rem',
                             border: 'none',
                             textTransform: 'uppercase',
-                            fontFamily: 'Sk-Modernist-Regular'
+                            fontFamily: "'Archivo', sans-serif"
                         }}
                         onClick={handleButtonClick}
                     >
@@ -172,7 +172,7 @@ const TemperaturePrediction = () => {
                         >
                         <LabelList dataKey="predictedTemperature" 
                                    position="top"
-                                   style={{ fontFamily: 'Sk-Modernist-Regular', fontSize: '0.6rem'}} />
+                                   style={{ fontFamily: "'Archivo', sans-serif", fontSize: '0.6rem'}} />
                     </Area>
                 </AreaChart>
             </ResponsiveContainer>

@@ -58,7 +58,7 @@ const PhLevelChart = () => {
   }, []);
 
   const tooltipStyle = {
-    fontFamily: 'Sk-Modernist-Regular', 
+    fontFamily: "'Archivo', sans-serif", 
     fontSize: '0.9rem',
     fontWeight: '500',
     border: 'none',

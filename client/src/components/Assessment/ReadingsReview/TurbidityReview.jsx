@@ -131,7 +131,7 @@ const TurbidityReview = () => {
             top: 0,
             display: 'flex',
             justifyContent: 'space-between',
-            fontFamily: 'Sk-Modernist-Regular',
+            fontFamily: "'Archivo', sans-serif",
             fontSize: '1rem',
             textAlign: 'center',
             padding: '15px',
@@ -153,7 +153,7 @@ const TurbidityReview = () => {
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',
-                fontFamily: 'Sk-Modernist-Regular',
+                fontFamily: "'Archivo', sans-serif",
                 padding: '15px',
                 fontWeight: index === 0 ? '600' : '300' ,
                 backgroundColor: index === 0 ? '#0A1929' : '#193450'

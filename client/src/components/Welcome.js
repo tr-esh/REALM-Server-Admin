@@ -5,7 +5,7 @@ function Welcome() {
   return (
     <div style={{ display: 'flex', 
                   flexDirection: 'column',
-                  fontFamily: 'Sk-Modernist-Regular',
+                  fontFamily: "'Archivo', sans-serif",
                   textTransform: 'uppercase',
                  }}>
 

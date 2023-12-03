@@ -13,7 +13,7 @@ const Item = styled(Paper)(({ theme }) => ({
   borderRadius: '2.5rem',
   fontWeight: '600',
   fontSize: '1rem',
-  fontFamily: 'Sk-Modernist-Regular',
+  fontFamily: "'Archivo', sans-serif",
   color: '#7da4cc',
   boxShadow: 'none',
 }));
@@ -24,7 +24,7 @@ const RecordSide = () => {
     <div className="record-side" >
 
       <div className='slogan-side' 
-            style={{ marginTop: '2rem', fontFamily: 'Sk-Modernist-Regular' }}
+            style={{ marginTop: '2rem', fontFamily: "'Archivo', sans-serif" }}
         > 
         Unlock insights with 
           <span style={{ color: '#8cacff', 

@@ -37,7 +37,7 @@ const SummaryChart = () => {
         return (
           <Text x={x} y={y} textAnchor="middle" 
                             verticalAnchor="start" 
-                            fontFamily="Sk-Modernist-Regular" 
+                            fontFamily="'Archivo', sans-serif" 
                             fontWeight= '400' 
                             fill = '#ffff' 
                             fontSize = '0.7rem'>
@@ -75,7 +75,7 @@ const SummaryChart = () => {
                 
                 <YAxis 
                     tick={{ fontSize: 10, 
-                            fontFamily: 'Sk-Modernist-Regular', 
+                            fontFamily: "'Archivo', sans-serif", 
                             fill: '#ffff', 
                             fontWeight: '300' }} 
                     axisLine={false} 
@@ -91,7 +91,7 @@ const SummaryChart = () => {
                     WebkitBackdropFilter: 'blur(15px)',
                     color: 'white',
                     fontSize: '1rem',
-                    fontFamily: 'Sk-Modernist-Regular',
+                    fontFamily: "'Archivo', sans-serif",
                     borderRadius: '0.5rem', border: 'none'}} 
                 />
                 <Bar

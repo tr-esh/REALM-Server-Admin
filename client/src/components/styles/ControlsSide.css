@@ -16,12 +16,12 @@
     font-weight: 600;
     color: beige;
     margin-top: 1rem;
-    font-family: "Sk-Modernist-Regular";
+    font-family: 'Archivo', sans-serif;
 }
 
 .a-header1 {
     color: #8cacff;
-    font-family: "Sk-Modernist-Regular";
+    font-family: 'Archivo', sans-serif;
 }
 
 .a-paragraph {
@@ -34,7 +34,7 @@
     margin-top: 0.2rem;
     margin-bottom: 2rem;
     line-height: 1.3;
-    font-family: "Sk-Modernist-Regular";
+    font-family: 'Archivo', sans-serif;
 }
 .box-holder{
     background-color: #8cacff;
@@ -44,7 +44,7 @@
     margin-top: 2rem;
 }
 .Ai-header{
-    font-family: "Sk-Modernist-Regular";
+    font-family: 'Archivo', sans-serif;
     font-size: 2.2rem;
     text-align: center;
     padding-top: 2rem;
@@ -69,7 +69,7 @@
     font-size: 0.8rem;
     text-align: center;
     margin-top: -0.3rem;
-    font-family: "Sk-Modernist-Regular";
+    font-family: 'Archivo', sans-serif;
     letter-spacing: 0.1rem;
     font-weight: 300;
 }

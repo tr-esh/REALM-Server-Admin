@@ -1,19 +1,19 @@
 .predictions-container {
   display: flex;
   gap: 20px;
-  font-family: 'Sk-Modernist-Regular';
+  font-family: 'Archivo', sans-serif;
 }
 
 .actual-state {
   display: flex;
   gap: 20px;
-  font-family: 'Sk-Modernist-Regular';
+  font-family: 'Archivo', sans-serif;
 }
 
 .predictHome-container {
   display: flex;
   gap: 20px;
-  font-family: 'Sk-Modernist-Regular';
+  font-family: 'Archivo', sans-serif;
   margin: auto;
 }
 

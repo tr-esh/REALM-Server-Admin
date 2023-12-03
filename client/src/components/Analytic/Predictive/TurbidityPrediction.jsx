@@ -119,7 +119,7 @@ const TurbidityPrediction = () => {
                             fontSize: '0.7rem',
                             border: 'none',
                             textTransform: 'uppercase',
-                            fontFamily: 'Sk-Modernist-Regular'
+                            fontFamily: "'Archivo', sans-serif"
                         }}
                         onClick={handleButtonClick}
                     >
@@ -177,7 +177,7 @@ const TurbidityPrediction = () => {
                         >
                         <LabelList dataKey="predictedTurbidity" 
                                    position="top"
-                                   style={{ fontFamily: 'Sk-Modernist-Regular', fontSize: '0.7rem'}} />
+                                   style={{ fontFamily: "'Archivo', sans-serif", fontSize: '0.7rem'}} />
                     </Area>
                 </AreaChart>
             </ResponsiveContainer>

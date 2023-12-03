@@ -97,7 +97,7 @@ const PhDataPA = () => {
   }, [page, integratedDataState]);
 
   const tooltipStyle = {
-    fontFamily: 'Sk-Modernist-Regular',
+    fontFamily: "'Archivo', sans-serif",
     fontSize: '0.8rem',
     fontWeight: '500',
     backgroundColor: '#0d2135',
@@ -153,7 +153,7 @@ const PhDataPA = () => {
                 interval={'preserveStartEnd'}
                 tickFormatter={(tick) => new Date(tick).toLocaleDateString('en-US', 
                                    { month: 'short', day: 'numeric' })}
-                tick={{ fill: 'white', fontFamily: 'Sk-Modernist-Regular' }}
+                tick={{ fill: 'white', fontFamily: "'Archivo', sans-serif" }}
                 textAnchor="middle"
                 dy={10}
                 style={{ textTransform: 'uppercase' }} 
@@ -164,7 +164,7 @@ const PhDataPA = () => {
                       iconType="square"
                       iconSize={8}
                       wrapperStyle={{
-                        fontFamily: 'Sk-Modernist-Regular',
+                        fontFamily: "'Archivo', sans-serif",
                         textTransform: 'uppercase',
                         fontSize: '0.7rem',
                         fontWeight: '300',

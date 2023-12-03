@@ -174,7 +174,7 @@ const AnalyticMain = () => {
                 border: 'none', 
                 marginRight: '1rem', 
                 color: 'white', 
-                fontFamily: 'Sk-Modernist-Regular'
+                fontFamily: "'Archivo', sans-serif"
               }}
             >
               SUMMARY OF FINDINGS
@@ -187,7 +187,7 @@ const AnalyticMain = () => {
                 background: 'none', 
                 border: 'none', 
                 color: 'white', 
-                fontFamily: 'Sk-Modernist-Regular' 
+                fontFamily: "'Archivo', sans-serif" 
               }}
             >
               MORE DETAILS
@@ -220,7 +220,7 @@ const AnalyticMain = () => {
                        paddingLeft:'2rem', 
                        paddingRight: '4.5rem', 
                        paddingBottom: '0.5rem', 
-                       fontFamily: 'Sk-Modernist-Regular', color:'#09111c'}}> 
+                       fontFamily: "'Archivo', sans-serif", color:'#09111c'}}> 
                        
                        RECORD OVERVIEW </p> 
 
@@ -257,11 +257,11 @@ const AnalyticMain = () => {
                     WebkitBackdropFilter: 'blur(5px)',
                     color: 'white',
                     fontSize: '0.5rem',
-                    fontFamily: 'Sk-Modernist-Regular',
+                    fontFamily: "'Archivo', sans-serif",
                   },
                   '.MuiMenuItem-root': {
                     fontSize: '0.8rem', 
-                    fontFamily: 'Sk-Modernist-Regular'
+                    fontFamily: "'Archivo', sans-serif"
                   }
                 }}
               >
@@ -319,18 +319,18 @@ const AnalyticMain = () => {
                          flexDirection: 'column', 
                          lineHeight: 0.9, 
                          margin: '0.4rem 1rem' }}>
-                        <span style={{ fontFamily: 'Sk-Modernist-Regular', 
+                        <span style={{ fontFamily: "'Archivo', sans-serif", 
                               fontSize: '0.7rem', 
                               fontWeight: '400', 
                               textTransform: 'uppercase', 
                               paddingBottom: '0.1rem' , color: '#09111c'}}> {highRecord.date}</span>
                         <span style={{ fontSize: '2.3rem', 
-                                       fontFamily: 'Sk-Modernist-Regular', color: '#09111c' }}> 
+                                       fontFamily: "'Archivo', sans-serif", color: '#09111c' }}> 
                                       {highRecord.value} {currentChart === 
                                       'TEMPERATURE' ? '°C' : (currentChart === 
                                       'TURBIDITY' ? 'NTU' : 'PH')}
                         </span>
-                        <span style={{ fontFamily: 'Sk-Modernist-Regular',
+                        <span style={{ fontFamily: "'Archivo', sans-serif",
                                        fontSize: '0.5rem', 
                                        fontWeight: '400', 
                                        textTransform: 'uppercase', color: '#09111c', paddingTop: '0.1rem'}}> Recorded High 
@@ -360,7 +360,7 @@ const AnalyticMain = () => {
                                    lineHeight: 0.9, 
                                    margin: '0.4rem 1rem' }}>
                         <span 
-                            style={{ fontFamily: 'Sk-Modernist-Regular', 
+                            style={{ fontFamily: "'Archivo', sans-serif", 
                                      fontSize: '0.7rem', 
                                      fontWeight: '400', 
                                      textTransform: 'uppercase', 
@@ -369,7 +369,7 @@ const AnalyticMain = () => {
                         </span>
                         <span 
                             style={{ fontSize: '2.3rem', 
-                                     fontFamily: 'Sk-Modernist-Regular' , color: '#09111c'}}>  
+                                     fontFamily: "'Archivo', sans-serif" , color: '#09111c'}}>  
                                      {lowRecord.value} {currentChart === 
                                      'TEMPERATURE' ? '°C' : (currentChart === 
                                      'TURBIDITY' ? 'NTU' : 'PH')}
@@ -415,7 +415,7 @@ const AnalyticMain = () => {
                       border: 'none',
                       cursor: 'pointer',
                       fontSize: '0.8rem',
-                      fontFamily: 'Sk-Modernist-Regular',
+                      fontFamily: "'Archivo', sans-serif",
                       fontWeight: '200',
                       borderBottom: currentChart === 
                         option.label ? '2px solid #8cacff' : 'none',
@@ -432,7 +432,7 @@ const AnalyticMain = () => {
             <div className='predictive-chart' 
                  style={{ height: '50%', margin: 'auto' }}>
             <div style={{ fontSize: '1.5rem', 
-                          fontFamily: 'Sk-Modernist-Regular', 
+                          fontFamily: "'Archivo', sans-serif", 
                           fontWeight: '600', 
                           marginBottom: '0.5rem' }}>
                           WATER QUALITY 
@@ -466,7 +466,7 @@ const AnalyticMain = () => {
                           paddingLeft:'2rem', 
                           paddingRight: '4.5rem', 
                           paddingBottom: '0.5rem', 
-                          fontFamily: 'Sk-Modernist-Regular'}}> 
+                          fontFamily: "'Archivo', sans-serif"}}> 
                           
                           WEEKLY FORECAST 
             </p>

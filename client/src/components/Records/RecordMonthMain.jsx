@@ -31,7 +31,7 @@ const Item = styled(Paper)(({ theme }) => ({
     borderRadius: '2.6rem',
     fontWeight: '600',
     fontSize: '1rem',
-    fontFamily: 'Sk-Modernist-Regular',
+    fontFamily: "'Archivo', sans-serif",
     color: '#7da4cc',
     boxShadow: 'none',
   }));
@@ -163,7 +163,7 @@ const Item = styled(Paper)(({ theme }) => ({
                                 display: 'grid', 
                                 gridTemplateColumns: '25rem auto'}}
                     >
-                      <div style={{  fontFamily: 'Sk-Modernist-Regular', 
+                      <div style={{  fontFamily: "'Archivo', sans-serif", 
                                      fontWeight: '600', 
                                      lineHeight: '0.8', 
                                      textAlign: 'start', 
@@ -177,7 +177,7 @@ const Item = styled(Paper)(({ theme }) => ({
                                 style={{marginRight: '0.7rem'}}
                                 >
                             <Tooltip title="Back" 
-                                     arrow style={{fontFamily:'Sk-Modernist-Regular'}}
+                                     arrow style={{fontFamily:"'Archivo', sans-serif"}}
                                   > 
                               <KeyboardReturnRoundedIcon className='home-icon' 
                                                          sx={{ fontSize:'2rem', 
@@ -319,28 +319,28 @@ const Item = styled(Paper)(({ theme }) => ({
                                 <TableHead>
                                   <TableRow>
                                     <TableCell style={{ color: 'white', 
-                                                        fontFamily: 'Sk-Modernist-Regular', 
+                                                        fontFamily: "'Archivo', sans-serif", 
                                                         fontSize: '1rem', 
                                                         textAlign: 'center', 
                                                         borderBottom:'none' }}>
                                                           Parameter Name
                                     </TableCell>
                                     <TableCell style={{ color: 'white', 
-                                                        fontFamily: 'Sk-Modernist-Regular', 
+                                                        fontFamily: "'Archivo', sans-serif", 
                                                         fontSize: '1rem', 
                                                         textAlign: 'center', 
                                                         borderBottom:'none' }}>
                                                           Value
                                     </TableCell>
                                     <TableCell style={{ color: 'white', 
-                                                        fontFamily: 'Sk-Modernist-Regular', 
+                                                        fontFamily: "'Archivo', sans-serif", 
                                                         fontSize: '1rem', 
                                                         textAlign: 'center', 
                                                         borderBottom:'none' }}>
                                                           Status
                                     </TableCell>
                                     <TableCell style={{ color: 'white', 
-                                                        fontFamily: 'Sk-Modernist-Regular', 
+                                                        fontFamily: "'Archivo', sans-serif", 
                                                         fontSize: '1rem', 
                                                         textAlign: 'center', 
                                                         borderBottom:'none'}}>
@@ -357,27 +357,27 @@ const Item = styled(Paper)(({ theme }) => ({
                                                 className={index % 2 === 0 ? 'even-row' : 'odd-row'}>
                                       <TableCell style={{ color: 'white', 
                                                           textAlign: 'center', 
-                                                          fontFamily: 'Sk-Modernist-Regular', 
+                                                          fontFamily: "'Archivo', sans-serif", 
                                                           textTransform: 'uppercase', 
                                                           borderBottom:'none'}}> 
                                                           {item.type}
                                       </TableCell>
                                       <TableCell style={{ color: 'white', 
                                                           textAlign: 'center', 
-                                                          fontFamily: 'Sk-Modernist-Regular' , 
+                                                          fontFamily: "'Archivo', sans-serif" , 
                                                           borderBottom:'none'}}>
                                                             {item.value}
                                       </TableCell>
                                       <TableCell style={{ color: 'white', 
                                                           textAlign: 'center', 
-                                                          fontFamily: 'Sk-Modernist-Regular', 
+                                                          fontFamily: "'Archivo', sans-serif", 
                                                           textTransform: 'uppercase' , 
                                                           borderBottom:'none' }}>
                                                             {item.status}
                                       </TableCell>
                                       <TableCell style={{ color: 'white', 
                                                           textAlign: 'center', 
-                                                          fontFamily: 'Sk-Modernist-Regular', 
+                                                          fontFamily: "'Archivo', sans-serif", 
                                                           borderBottom:'none' }}>
                                                             {moment(item.createdAt).format('LT[ • ]LL')}
                                       </TableCell>

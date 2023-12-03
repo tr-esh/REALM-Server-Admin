@@ -20,7 +20,7 @@
     height: 95px;
     border-radius: 1.5rem;
     margin-bottom: 0.5rem;
-    font-family: 'Sk-Modernist-Regular';
+    font-family: 'Archivo', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +32,7 @@
     height: 95px;
     border-radius: 1.5rem;
     margin-top: 0.9rem;
-    font-family: 'Sk-Modernist-Regular';
+    font-family: 'Archivo', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@
 
 .warning-signal {
     font-weight: 600;
-    font-family: "Sk-Modernist-Regular";
+    font-family: 'Archivo', sans-serif;
     letter-spacing: 0.1rem;
     font-size: 1rem;
 }
@@ -122,7 +122,7 @@
     border-radius: 1rem;
     margin-bottom: 0.5rem;
     border: none;
-    font-family: 'Sk-Modernist-Regular';
+    font-family: 'Archivo', sans-serif;
     text-align: left;
     color: white;
 }

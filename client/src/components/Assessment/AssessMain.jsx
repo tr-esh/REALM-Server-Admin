@@ -25,7 +25,7 @@ const Item = styled(Paper)(({ theme }) => ({
   borderRadius: '2.6rem',
   fontWeight: '600',
   fontSize: '1rem',
-  fontFamily: 'Sk-Modernist-Regular',
+  fontFamily: "'Archivo', sans-serif",
   color: '#7da4cc',
   boxShadow: 'none',
 }));
@@ -91,7 +91,7 @@ const AssessMain = () => {
                               border: 'none',
                               cursor: 'pointer',
                               fontSize: '0.8rem',
-                              fontFamily: 'Sk-Modernist-Regular',
+                              fontFamily: "'Archivo', sans-serif",
                               fontWeight: '200',
                               borderBottom: currentChart === option.label ? 
                                               `2px solid ${option.color}` : 'none',

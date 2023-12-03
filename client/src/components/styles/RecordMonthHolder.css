@@ -2,6 +2,6 @@
     display: grid;
     height: 100%;
     width: 100%;
-    font-family: 'Sk-Modernist-Regular';
+    font-family: 'Archivo', sans-serif;
     grid-template-columns: 73rem auto;
 }

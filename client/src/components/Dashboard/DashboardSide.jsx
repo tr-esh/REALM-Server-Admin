@@ -156,7 +156,7 @@ const DashboardSide = () => {
             lineHeight: 1.3,
             padding: '1.2rem',
             color: '#7da4cc',
-            fontFamily: 'Sk-Modernist-Regular',
+            fontFamily: "'Archivo', sans-serif",
           }}
         >
           Keep a watchful eye on water quality with REALM, the innovative IoT
@@ -168,7 +168,7 @@ const DashboardSide = () => {
             style={{
               fontSize: '1rem',
               fontWeight: '600',
-              fontFamily: 'Sk-Modernist-Regular',
+              fontFamily: "'Archivo', sans-serif",
               color: '#ffff',
             }}
           >
@@ -298,7 +298,7 @@ const DashboardSide = () => {
         ) : (
           <span
             style={{
-              fontFamily: 'Sk-Modernist-Regular',
+              fontFamily: "'Archivo', sans-serif",
               color: '#23496e',
               paddingLeft: '5rem',
             }}

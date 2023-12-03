@@ -9,7 +9,7 @@ const Summary = () => {
     return (
         <div >
             <div 
-               style={{fontFamily: 'Sk-Modernist-Regular', 
+               style={{fontFamily: "'Archivo', sans-serif", 
                        fontSize: '1.5rem'}}> 
                        MONTHLY 
                        <span style={{color: '#8cacff'}} > DISTRIBUTION </span> </div> 

@@ -214,7 +214,7 @@ const DashboardMain = () => {
                                 textColor: "#0A1929",
                                 pathColor: getPathColor(overallIndex * 100),
                                 trailColor: '#09111c',
-                                fontFamily: 'Sk-Modernist-Regular'
+                                fontFamily: "'Archivo', sans-serif"
                             })}
                         />
 
@@ -237,7 +237,7 @@ const DashboardMain = () => {
                 <div className='card-overview' 
                      style={{ textAlign: 'center' }}>
 
-                <p style={{ fontFamily: 'Sk-Modernist-Regular', 
+                <p style={{ fontFamily: "'Archivo', sans-serif", 
                             fontWeight: '700', 
                             fontSize: '2rem', 
                             textAlign: 'left', 
@@ -514,7 +514,7 @@ const DashboardMain = () => {
                                   borderTopRightRadius: '1.6rem',
                                   alignItems:'center'}}>
                         <span style={{ fontSize: '2.5rem', 
-                                       fontFamily: 'Sk-Modernist-Regular',
+                                       fontFamily: "'Archivo', sans-serif",
                                        fontWeight: '700', 
                                        color:'#0A1929', 
                                        paddingLeft:'0.6rem'}}>

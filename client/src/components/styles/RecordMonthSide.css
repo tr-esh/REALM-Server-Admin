@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     margin-top: 0.5rem;
-    font-family: 'Sk-Modernist-Regular';
+    font-family: 'Archivo', sans-serif;
 }
 
 .param-container:hover{
@@ -83,7 +83,7 @@
 }
 
 .export-main-btn {
-    font-size: 'Sk-Modernist-Regular';
+    font-size: 'Archivo', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
     text-align: left;

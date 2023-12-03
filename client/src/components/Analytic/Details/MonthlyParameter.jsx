@@ -69,7 +69,7 @@ const MonthlyParameter = () => {
   };
 
   const tooltipStyle = {
-    fontFamily: 'Sk-Modernist-Regular', 
+    fontFamily: "'Archivo', sans-serif", 
     fontSize: '0.9rem',
     fontWeight: '500',
   };
@@ -84,7 +84,7 @@ const MonthlyParameter = () => {
 
        <div className="chart-wrapper" 
             style={{ width: '350px' }}>
-      <div style={{ fontFamily: 'Sk-Modernist-Regular', 
+      <div style={{ fontFamily: "'Archivo', sans-serif", 
                     fontSize: '0.7rem', 
                     fontWeight: '500', 
                     textTransform: 'uppercase', 
@@ -94,14 +94,14 @@ const MonthlyParameter = () => {
     <div className='data-count' 
          style={{ fontSize: '3rem', 
                   fontWeight: '700', 
-                  fontFamily: 'Sk-Modernist-Regular', 
+                  fontFamily: "'Archivo', sans-serif", 
                   textAlign: 'left', 
                   marginTop: '-0.5rem', color: '#8cacff'}}>
                  {temperatureCount + phCount + turbidityCount}
     </div>
     
     <div className='most-month'  
-         style={{ fontFamily: 'Sk-Modernist-Regular', 
+         style={{ fontFamily: "'Archivo', sans-serif", 
                   fontSize: '0.7rem', 
                   fontWeight: '300', 
                   textTransform: 'uppercase', 
@@ -140,7 +140,7 @@ const MonthlyParameter = () => {
                       iconType="circle"
                       iconSize={8}
                       wrapperStyle={{
-                          fontFamily: 'Sk-Modernist-Regular',
+                          fontFamily: "'Archivo', sans-serif",
                           textTransform: 'uppercase',
                           fontSize: '0.7rem',
                           fontWeight: '300',

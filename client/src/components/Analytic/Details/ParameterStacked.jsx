@@ -110,7 +110,7 @@ const ParameterStacked = () => {
       <Text x={x} y={y} 
             textAnchor="middle" 
             verticalAnchor="start" 
-            fontFamily="Sk-Modernist-Regular" 
+            fontFamily="'Archivo', sans-serif" 
             fontWeight= '400' 
             fontSize= '0.7rem' 
             fill= '#ffff'>
@@ -162,7 +162,7 @@ const ParameterStacked = () => {
       <div className="chart-wrapper" 
            style={{ width: '95%' }}>
         <div style={{ paddingTop: '-40rem', 
-                      fontFamily: 'Sk-Modernist-Regular', 
+                      fontFamily: "'Archivo', sans-serif", 
                       fontSize: '0.7rem', 
                       fontWeight: '500', 
                       textTransform:'uppercase', 
@@ -172,12 +172,12 @@ const ParameterStacked = () => {
         <div className='outlier-counts' 
             style={{ fontSize: '2rem', 
                      fontWeight: '700', 
-                     fontFamily: 'Sk-Modernist-Regular', 
+                     fontFamily: "'Archivo', sans-serif", 
                      textAlign: 'right', 
                      marginTop: '-0.5rem', color: '#8cacff'}}>
           {totalOutliers}
           </div>
-          <div style={{ fontFamily: 'Sk-Modernist-Regular', 
+          <div style={{ fontFamily: "'Archivo', sans-serif", 
                         fontSize: '0.7rem', 
                         fontWeight: '300', 
                         textTransform: 'uppercase', 
@@ -189,12 +189,12 @@ const ParameterStacked = () => {
           <div className='outlier-counts' 
                style={{ fontSize: '2rem', 
                         fontWeight: '700', 
-                        fontFamily: 'Sk-Modernist-Regular', 
+                        fontFamily: "'Archivo', sans-serif", 
                         textAlign: 'right', 
                         marginTop: '0.2rem', color: '#8cacff'}}>
           {normalCount}
           </div>
-          <div style={{ fontFamily: 'Sk-Modernist-Regular', 
+          <div style={{ fontFamily: "'Archivo', sans-serif", 
                         fontSize: '0.7rem', 
                         fontWeight: '300', 
                         textTransform: 'uppercase', 
@@ -215,7 +215,7 @@ const ParameterStacked = () => {
                    width={10}/>
             <YAxis 
                     tick={{ fontSize: 10, 
-                            fontFamily: 'Sk-Modernist-Regular', 
+                            fontFamily: "'Archivo', sans-serif", 
                             fill: '#ffff', 
                             fontWeight: '400'}}
                     axisLine={false} 
@@ -230,7 +230,7 @@ const ParameterStacked = () => {
               iconType="circle"
               iconSize={8}
               wrapperStyle={{
-                  fontFamily: 'Sk-Modernist-Regular',
+                  fontFamily: "'Archivo', sans-serif",
                   textTransform: 'uppercase',
                   fontSize: '0.7rem',
                   fontWeight: '300',

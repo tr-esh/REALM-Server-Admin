@@ -195,7 +195,7 @@ const generateProgressBar = (paramProgress, paramName) => {
                       textTransform: 'uppercase', 
                       fontWeight: '500', 
                       color: '#C7C7C7',
-                      fontFamily: 'Sk-Modernist-Regular' }}>
+                      fontFamily: "'Archivo', sans-serif" }}>
             {paramName}
           </p>
           <div className="progress-bar" style={{ padding: '1rem' }}>

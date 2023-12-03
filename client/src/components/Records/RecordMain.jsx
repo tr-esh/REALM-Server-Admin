@@ -17,7 +17,7 @@ const Item = styled(Paper)(({ theme }) => ({
   borderRadius: '2.6rem',
   fontWeight: '600',
   fontSize: '1rem',
-  fontFamily: 'Sk-Modernist-Regular',
+  fontFamily: "'Archivo', sans-serif",
   color: '#7da4cc',
   boxShadow: 'none',
 }));
@@ -60,7 +60,7 @@ const RecordMain = () => {
                                 gridTemplateColumns: '1fr 1fr'}}
                     >
                     <div className="headname" 
-                         style={{ fontFamily: 'Sk-Modernist-Regular', 
+                         style={{ fontFamily: "'Archivo', sans-serif", 
                                   fontWeight: '400',
                                   lineHeight: '0.8', 
                                   display: 'flex', 
@@ -93,7 +93,7 @@ const RecordMain = () => {
                                     width: '200px',
                                     height: '70px',
                                     backgroundColor: '#09111c',
-                                    fontFamily: 'Sk-Modernist-Regular',
+                                    fontFamily: "'Archivo', sans-serif",
                                     fontSize: '1.2rem',
                                     color: '#7da4cc',
                                     borderRadius: '1.5rem',
