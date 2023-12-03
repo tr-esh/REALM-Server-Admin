@@ -4,7 +4,7 @@ const whitelist = [
     'https://www.realm-server.com'
 ];
 
-const corsOption = {
+export const corsOption = {
     origin: function (origin, callback) {
         if (!origin || whitelist.indexOf(origin) !== -1) {
             callback(null, true);
@@ -15,4 +15,3 @@ const corsOption = {
     credentials: true,
 };
 
-export default corsOption;
