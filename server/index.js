@@ -37,6 +37,7 @@ const corsOption = {
     origin: function (origin, callback) {
         if (!origin || whitelist.indexOf(origin) !== -1) {
             callback(null, true);
+            console.log(origin, 'is allowed by CORS')
         } else {
             console.log(origin, 'is blocked by CORS');
         }
