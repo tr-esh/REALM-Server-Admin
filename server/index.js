@@ -3,7 +3,6 @@ const mongoose = require('mongoose')
 const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
-import {corsOption} from './config/cors'
 const parameterRoutes = require('./routes/parameters')
 // const os = require('os');
 const path = require('path');
@@ -27,6 +26,24 @@ const nextValuesController = require('./controllers/dailyDataPreparation');
 // }
 
 // console.log(ip_address);
+
+const whitelist = [
+    'http://localhost:8080',
+    'http://localhost:3000',
+    'https://www.realm-server.com'
+];
+
+const corsOption = {
+    origin: function (origin, callback) {
+        if (!origin || whitelist.indexOf(origin) !== -1) {
+            callback(null, true);
+        } else {
+            console.log(origin, 'is blocked by CORS');
+        }
+    },
+    credentials: true,
+};
+
 
 
 app.use(cors(corsOption))
