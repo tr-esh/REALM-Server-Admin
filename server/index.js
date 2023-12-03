@@ -3,6 +3,7 @@ const mongoose = require('mongoose')
 const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
+const corsOption = require('./config/cors')
 const parameterRoutes = require('./routes/parameters')
 // const os = require('os');
 const path = require('path');
@@ -27,11 +28,12 @@ const nextValuesController = require('./controllers/dailyDataPreparation');
 
 // console.log(ip_address);
 
+
+app.use(cors(corsOption))
+
 //middleware
 app.use(express.json());
 
-
-app.use(cors())
 
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
