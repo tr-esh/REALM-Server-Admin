@@ -4,28 +4,28 @@ const app = express()
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const parameterRoutes = require('./routes/parameters')
-// const os = require('os');
+const os = require('os');
 const path = require('path');
 
 
-// const interfaces = os.networkInterfaces();
+const interfaces = os.networkInterfaces();
 
 const parametersController = require('./controllers/dataPreparation');
 const nextValuesController = require('./controllers/dailyDataPreparation');
 
-// let ip_address;
+let ip_address;
 
-// for (let k in interfaces) {
-//     for (let k2 in interfaces[k]) {
-//         let address = interfaces[k][k2];
-//         if (address.family === 'IPv4' && !address.internal) {
-//             ip_address = address.address;
-//             break;
-//         }
-//     }
-// }
+for (let k in interfaces) {
+    for (let k2 in interfaces[k]) {
+        let address = interfaces[k][k2];
+        if (address.family === 'IPv4' && !address.internal) {
+            ip_address = address.address;
+            break;
+        }
+    }
+}
 
-// console.log(ip_address);
+console.log(ip_address);
 
 const whitelist = [
     'http://localhost:8080',
