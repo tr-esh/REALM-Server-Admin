@@ -95,7 +95,7 @@ const DashboardSide = () => {
     };
 
     fetchNotificationHistory();
-  }, []);
+  }, [all]);
 
   const handleModalOpen = (alertType) => {
     // Filter the `all` array based on the clicked alert type
